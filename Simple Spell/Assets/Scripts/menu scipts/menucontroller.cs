@@ -6,19 +6,25 @@ using UnityEngine.SceneManagement;
 public class menucontroller : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void playgame()
+    public void playgamesport()
     {
-        SceneManager.LoadScene("gameScene");
+        SceneManager.LoadScene("sportgamescene");
     }
 
-    public void options()
+    public void playgamespace()
     {
-        SceneManager.LoadScene("optionsScene");
+        SceneManager.LoadScene("spacegamescene");
     }
 
-    public void inventory()
+    public void playgamegarden()
     {
-        SceneManager.LoadScene("InventoryScene");
+        SceneManager.LoadScene("gardengamescene");
+    }
+
+
+    public void playgamefooddrinks()
+    {
+        SceneManager.LoadScene("fooddrinkgamescene");
     }
 
     public void exitGame()
