@@ -7,7 +7,7 @@ using TMPro;
 public class Typer : MonoBehaviour
 {
 
-    public WordBank wordBank = null;
+    public NatureWordBank wordBank = null;
     public TextMeshProUGUI wordOutput = null;
 
     private string remainingWord = string.Empty;

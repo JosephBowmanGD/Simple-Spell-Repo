@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 61d7532c189b22745ab78626c2d25335
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Foo&Drink.unity
+    guid: 45c60f8024818714e808c8a2b2938c7a
+  - enabled: 1
+    path: Assets/Scenes/Nature.unity
+    guid: 1e8271f5acfbc894c89b6b2b2e81af80
+  - enabled: 1
+    path: Assets/Scenes/Space.unity
+    guid: 7676b7f118b773e488cb9525f6c60eea
+  - enabled: 1
+    path: Assets/Scenes/Sports.unity
+    guid: ba26f06c043e3d04dbd397366b2cc5b6
   m_configObjects: {}

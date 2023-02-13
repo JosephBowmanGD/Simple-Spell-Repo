@@ -1033,10 +1033,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84d5762b1d052ad4ca1c66c857df8aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sportscene: 
-  spacescene: 
-  gardenscene: 
-  fooddrinkscene: 
+  sportscene: Sports
+  spacescene: Space
+  gardenscene: Nature
+  fooddrinkscene: Food&Drink
 --- !u!1 &1879959116
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@ using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WordBank : MonoBehaviour
+public class NatureWordBank : MonoBehaviour
 {
 
     private List<string> originalWords = new List<string>()
