@@ -6,7 +6,8 @@ using TMPro;
 
 public class TyperNature1 : MonoBehaviour
 {
-
+    public AudioSource wrong;
+    public AudioSource correct;
     public NatureWordBank1 wordBank = null;
     public TextMeshProUGUI wordOutput = null;
 
@@ -53,19 +54,20 @@ public class TyperNature1 : MonoBehaviour
 
     private void EnterLetter(string TypedLetter)
     {
-        if(IsCorrect(TypedLetter))
+        if (IsCorrect(TypedLetter))
         {
             RemoveLetter();
-
             if (isComplete())
             {
                 GameObject ef = Instantiate(eff, transform.position, Quaternion.identity) as GameObject;
                 Destroy(ef, 2);
                 SetCurrWord();
+                correct.Play();
             }
         }
         else
         {
+            wrong.Play();
             SetRemainingWord(currWord);
         }
     }

@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 61d7532c189b22745ab78626c2d25335
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Food Scenes/FoodGradeTwo.unity
     guid: 45c60f8024818714e808c8a2b2938c7a
@@ -23,4 +23,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sports Scene/SportsGradeTwo.unity
     guid: ba26f06c043e3d04dbd397366b2cc5b6
+  - enabled: 1
+    path: Assets/Scenes/Choosing scenes/Food Choices.unity
+    guid: 69bcdfca991b21b47a3ceeba82b8904e
+  - enabled: 1
+    path: Assets/Scenes/Choosing scenes/Nature Choises.unity
+    guid: 07dbe0917db391d40866495025f628aa
+  - enabled: 1
+    path: Assets/Scenes/Choosing scenes/Space Choises.unity
+    guid: c208644de223eec47a9d51d2dd1d8511
+  - enabled: 1
+    path: Assets/Scenes/Choosing scenes/Sports Choises.unity
+    guid: dde28c77d6871754cb67eb19f548ee64
+  - enabled: 1
+    path: Assets/Scenes/Food Scenes/FoodGradeFour.unity
+    guid: 30f9202e263eff745ad136b9dc675be2
+  - enabled: 1
+    path: Assets/Scenes/Food Scenes/FoodGradeThree.unity
+    guid: 6ffb050b6c23c364c9b7c04402062030
+  - enabled: 1
+    path: Assets/Scenes/Nature Scene/NatureGradeFour.unity
+    guid: 1028de74946bfda46b68de95f3242ea1
+  - enabled: 1
+    path: Assets/Scenes/Nature Scene/NatureGradeTwo.unity
+    guid: f100bedd8e73f6542888be0a0d4bdf04
+  - enabled: 1
+    path: Assets/Scenes/Space Scene/SpaceGradeFour.unity
+    guid: fb7687ab17fc1b24ca3abbc2b96fa023
+  - enabled: 1
+    path: Assets/Scenes/Space Scene/SpaceGradeTree.unity
+    guid: 2ab19d7bcbdeed34abb5726cda13da3f
+  - enabled: 1
+    path: Assets/Scenes/Sports Scene/SportsGradeFour.unity
+    guid: 7cfd20269bacef942b64ede94f06241e
+  - enabled: 1
+    path: Assets/Scenes/Sports Scene/SportsGradeThree.unity
+    guid: f139df2d09d1f3441876c5512aee087f
   m_configObjects: {}

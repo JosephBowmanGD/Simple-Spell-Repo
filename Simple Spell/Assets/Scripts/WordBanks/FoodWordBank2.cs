@@ -7,7 +7,7 @@ public class FoodWordBank2 : MonoBehaviour
 
     private List<string> originalWords = new List<string>()
     {
-        "pour", "milk", "knife", "batch", "burned", "product", "wrap", "dreid", "bought", "lunch"
+        "pour", "milk", "knife", "batch", "burned", "product", "wrap", "dried", "bought", "lunch"
     };
 
     private List<string> workingWords = new List<string>();

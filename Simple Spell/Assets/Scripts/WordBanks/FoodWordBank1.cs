@@ -5,12 +5,14 @@ using UnityEngine;
 public class FoodWordBank1 : MonoBehaviour
 {
 
-    private List<string> originalWords = new List<string>()
+
+
+    public List<string> originalWords = new List<string>()
     {
         "rise", "food", "beet", "meat", "cook", "raw", "eggs", "fruit", "bread", "eat"
     };
 
-    private List<string> workingWords = new List<string>();
+    public List<string> workingWords = new List<string>();
 
     private void Awake()
     {
